@@ -35,7 +35,7 @@ private:
   
   int8_t _oldState;
   
-  int _position;     // Internal position (4 times _positionExt)
+  long _position;     // Internal position (4 times _positionExt)
   int _positionExt;  // External position
 };
 
